@@ -49,9 +49,12 @@ def get_final_array
 end
 
 
-
+def perform
 get_townhall_email
 get_townhall_urls
 get_townhall_names
 get_all_emails
 get_final_array
+end
+
+perform

@@ -48,13 +48,6 @@ def get_final_array
     puts hash_contacts = Hash[get_all_emails.zip(get_townhall_names)]
 end
 
-#    page = Nokogiri::HTML(URI.open(get_townhall_urls.to_s))
-#    page.xpath('/html/body/div/main/section[2]/div/table/tbody/tr[4]/td[2]').each do |email|
-#    end
-#    return  email.text
-#end
-
-
 
 
 get_townhall_email
